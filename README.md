@@ -111,7 +111,7 @@ Base de datos: PlanetScale, Supabase o Neon.
 
 | Capa               | Tecnologías                  | Función                                                              |
 |--------------------|------------------------------|----------------------------------------------------------------------|
-| **Frontend** | HTML5, CSS3, JavaScript puro | UI de estudiantes y admin, llamadas a la API                         |
+| **Frontend** | HTML5, CSS, JavaScript puro | UI de estudiantes y admin, llamadas a la API                         |
 | **Backend** | Node.js + Express            | API REST, autenticación, lógica de negocio, conexión con IA y DB       |
-| **Base de Datos** | MySQL / PostgreSQL           | Persistencia de usuarios, preguntas y entrevistas                    |
-| **Servicios Externos** | DeepSeek / OpenAI            | Generación de preguntas y feedback en inglés                         |
+| **Base de Datos** | PostgreSQL           | Persistencia de usuarios, preguntas y entrevistas                    |
+| **Servicios Externos** | DeepSeek            | Generación de preguntas y feedback en inglés                         |
