@@ -53,7 +53,7 @@ GET /admin/metrics – Métricas para admin.
 
 Middleware: Roles (admin/estudiante), autenticación JWT.
 
-🗄️ Base de Datos (MySQL o PostgreSQL)
+🗄️ Base de Datos (PostgreSQL)
 
 ## Tablas iniciales:
 
