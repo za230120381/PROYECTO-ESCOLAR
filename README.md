@@ -1,4 +1,4 @@
-# 📝 Progreso Semana 2 – Arquitectura Full-Stack (sin React)
+# 📝 Semana 2 – Arquitectura Full-Stack (sin React)
 🖥️ Frontend (HTML5 + CSS + JS puro)
 
 ## Tecnologías:
@@ -58,7 +58,7 @@ Middleware: Roles (admin/estudiante), autenticación JWT.
 ## Tablas iniciales:
 
 Usuarios (con rol admin o estudiante).
-#
+
 Preguntas (temas técnicos, soft skills).
 
 Entrevistas (fecha, user_id, resultados).
