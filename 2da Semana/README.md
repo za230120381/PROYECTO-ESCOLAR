@@ -1,4 +1,4 @@
-# 📝 Semana 2 – Arquitectura Full-Stack (sin React)
+# 📝 Semana 2 – Arquitectura Full-Stack
 🖥️ Frontend (HTML5 + CSS + JS puro)
 
 ## Tecnologías:
