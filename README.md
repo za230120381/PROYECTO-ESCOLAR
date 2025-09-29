@@ -101,13 +101,7 @@ HTTPS: cifrado de datos.
 
 CORS: restringir a dominios autorizados.
 
-## 🌐 Infraestructura recomendada
-
-Frontend (HTML/CSS/JS): GitHub Pages, Vercel o Netlify.
-
-Backend (Node.js): Railway o Render.
-
-Base de datos: PlanetScale, Supabase o Neon.
+## 🌐 Infraestructura 
 
 | Capa               | Tecnologías                  | Función                                                              |
 |--------------------|------------------------------|----------------------------------------------------------------------|
