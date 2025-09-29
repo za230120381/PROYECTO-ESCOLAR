@@ -109,9 +109,9 @@ Backend (Node.js): Railway o Render.
 
 Base de datos: PlanetScale, Supabase o Neon.
 
-## 📊 Resumen de componentes en tabla
-**Capa	                                    Tecnologías	                     Función** 
-**Frontend	                                HTML5, CSS3, JavaScript puro	   UI de estudiantes y admin, llamadas a la API**
-**Backend	                                  Node.js + Express	               API REST, autenticación, lógica de negocio, conexión con IA y DB**
-**Base de Datos	                            MySQL / PostgreSQL	             Persistencia de usuarios, preguntas y entrevistas**
-**Servicios Externos	                        DeepSeek / OpenAI	             Generación de preguntas y feedback en inglés**
+| Capa               | Tecnologías                  | Función                                                              |
+|--------------------|------------------------------|----------------------------------------------------------------------|
+| **Frontend** | HTML5, CSS3, JavaScript puro | UI de estudiantes y admin, llamadas a la API                         |
+| **Backend** | Node.js + Express            | API REST, autenticación, lógica de negocio, conexión con IA y DB       |
+| **Base de Datos** | MySQL / PostgreSQL           | Persistencia de usuarios, preguntas y entrevistas                    |
+| **Servicios Externos** | DeepSeek / OpenAI            | Generación de preguntas y feedback en inglés                         |
