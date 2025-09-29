@@ -1,7 +1,7 @@
-📝 Progreso Semana 2 – Arquitectura Full-Stack (sin React)
+# 📝 Semana 2 – Arquitectura Full-Stack (sin React)
 🖥️ Frontend (HTML5 + CSS + JS puro)
 
-Tecnologías:
+## Tecnologías:
 
 HTML5: estructura de la interfaz.
 
@@ -11,7 +11,7 @@ JavaScript Vanilla: para consumir la API del backend y manejar la interacción.
 
 Objetivo: Proporcionar una UI clara y ligera para que los estudiantes puedan registrarse, iniciar sesión, contestar entrevistas y ver feedback.
 
-Componentes/Páginas principales:
+## Componentes/Páginas principales:
 
 index.html – Pantalla de login/registro.
 
@@ -21,23 +21,23 @@ interview.html – Pantalla de entrevista tipo chat.
 
 admin.html – Panel del administrador (gestión de preguntas, usuarios, métricas).
 
-Comunicación con Backend:
+## Comunicación con Backend:
 
 fetch() con JSON via HTTPS.
 
 Tokens JWT almacenados en cookies o localStorage.
 
-Ventajas:
+## Ventajas:
 
 Fácil despliegue (GitHub Pages, Vercel, Netlify).
 
 No requiere compilación ni frameworks pesados.
 
-🛠️ Backend (Node.js + Express)
+## 🛠️ Backend (Node.js + Express)
 
 Objetivo: Procesar peticiones del frontend, autenticar usuarios, conectar con IA y base de datos.
 
-Endpoints Contemplados:
+## Endpoints Contemplados:
 
 POST /auth/register – Registro.
 
@@ -55,7 +55,7 @@ Middleware: Roles (admin/estudiante), autenticación JWT.
 
 🗄️ Base de Datos (MySQL o PostgreSQL)
 
-Tablas iniciales:
+## Tablas iniciales:
 
 Usuarios (con rol admin o estudiante).
 
@@ -65,7 +65,7 @@ Entrevistas (fecha, user_id, resultados).
 
 Respuestas (respuesta del usuario + feedback IA).
 
-🤖 Servicios Externos (IA)
+## 🤖 Servicios Externos (IA)
 
 DeepSeek u OpenAI Chat:
 
@@ -73,7 +73,7 @@ Genera preguntas dinámicas en inglés técnico.
 
 Evalúa las respuestas y devuelve feedback.
 
-🔄 Flujo de datos
+## 🔄 Flujo de datos
 
 Estudiante entra en index.html y se autentica (fetch → backend).
 
@@ -91,7 +91,7 @@ Historial se guarda en base de datos y puede consultarse en dashboard.html.
 
 Admin entra en admin.html para gestionar preguntas, métricas y usuarios.
 
-🔒 Seguridad y Roles
+## 🔒 Seguridad y Roles
 
 Admin: acceso a panel de métricas y gestión.
 
@@ -101,17 +101,11 @@ HTTPS: cifrado de datos.
 
 CORS: restringir a dominios autorizados.
 
-🌐 Infraestructura recomendada
+## 🌐 Infraestructura 
 
-Frontend (HTML/CSS/JS): GitHub Pages, Vercel o Netlify.
-
-Backend (Node.js): Railway o Render.
-
-Base de datos: PlanetScale, Supabase o Neon.
-
-📊 Resumen de componentes en tabla
-Capa	Tecnologías	Función
-Frontend	HTML5, CSS3, JavaScript puro	UI de estudiantes y admin, llamadas a la API
-Backend	Node.js + Express	API REST, autenticación, lógica de negocio, conexión con IA y DB
-Base de Datos	MySQL / PostgreSQL	Persistencia de usuarios, preguntas y entrevistas
-Servicios Externos	DeepSeek / OpenAI	Generación de preguntas y feedback en inglés
+| Capa               | Tecnologías                  | Función                                                              |
+|--------------------|------------------------------|----------------------------------------------------------------------|
+| **Frontend** | HTML5, CSS, JavaScript puro | UI de estudiantes y admin, llamadas a la API                         |
+| **Backend** | Node.js + Express            | API REST, autenticación, lógica de negocio, conexión con IA y DB       |
+| **Base de Datos** | PostgreSQL           | Persistencia de usuarios, preguntas y entrevistas                    |
+| **Servicios Externos** | DeepSeek            | Generación de preguntas y feedback en inglés                         |
